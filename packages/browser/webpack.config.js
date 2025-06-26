@@ -72,7 +72,7 @@ const config = {
     publicPath: '', // Hack - we're overriding publicPath but IE needs this set or it won't load.
     filename: '[name].js',
     path: path.resolve(__dirname, 'dist/umd'),
-    chunkFilename: '[name].bundle.[contenthash].js',
+    chunkFilename: '[name].bundle.js',
   },
   target: ['web', 'es5'],
   module: {
